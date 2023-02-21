@@ -1,10 +1,11 @@
-from rembg import remove # pip install rembg
+# pip install rembg
+from rembg import remove 
 from PIL import Image
 
 # REQUEST THE IMAGE
-input_path = 'lapo.jpeg'
+input_path = 'old.jpeg'
 # CREATE THE NAME OF THE NEW IMAGE
-output_path = 'solo.png'
+output_path = 'new.png'
 # OPEN THE IMAGE
 bg = Image.open(input_path)
 # REMOVE THE BACKGROUND 
