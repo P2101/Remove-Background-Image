@@ -3,9 +3,9 @@ from rembg import remove
 from PIL import Image
 
 # REQUEST THE IMAGE
-input_path = 'old.jpeg'
+input_path = 'original.jpeg'
 # CREATE THE NAME OF THE NEW IMAGE
-output_path = 'new.png'
+output_path = 'without-background.png'
 # OPEN THE IMAGE
 bg = Image.open(input_path)
 # REMOVE THE BACKGROUND 
